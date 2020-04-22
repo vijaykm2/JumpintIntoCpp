@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1dba614-a519-46ac-a747-0901fbc5efb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10/structures1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10/upgrade.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/badcode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/globalvar.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/localvar.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/switch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch8/modulus.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch8/rand.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch8/srand.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch9/insertion_sort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch9/sum_array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch6/empty.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ch6/add_function.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="XJrASFic" />
+  </component>
+  <component name="ProjectId" id="1aj0inaMstySLc5J9R75YBuLT2g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch6" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch6" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1dba614-a519-46ac-a747-0901fbc5efb0" name="Default Changelist" comment="" />
+      <created>1587233824057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587233824057</updated>
+      <workItem from="1587233825646" duration="880000" />
+      <workItem from="1587246771848" duration="125000" />
+      <workItem from="1587247404396" duration="4702000" />
+      <workItem from="1587329611894" duration="3483000" />
+      <workItem from="1587359915090" duration="1296000" />
+      <workItem from="1587405959977" duration="9751000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1587233914813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587233914813</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1587273134105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587273134105</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="510" y="90" width="890" height="933" key="CommitChangelistDialog2" timestamp="1587273133051">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="510" y="90" width="890" height="933" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1587273133051" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1587320377155">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1587320377155" />
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1587447214835">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1587447214835" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587273144855">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1587273144855" />
+  </component>
+</project>
