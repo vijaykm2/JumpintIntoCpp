@@ -10,19 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1dba614-a519-46ac-a747-0901fbc5efb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10/structures1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch10/upgrade.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/badcode.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/globalvar.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/localvar.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/switch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch8/modulus.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch8/rand.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch8/srand.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch9/insertion_sort.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch9/sum_array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch6/empty.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ch6/add_function.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch14/resize_array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch16/powxy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +43,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -75,7 +65,12 @@
       <workItem from="1587247404396" duration="4702000" />
       <workItem from="1587329611894" duration="3483000" />
       <workItem from="1587359915090" duration="1296000" />
-      <workItem from="1587405959977" duration="9751000" />
+      <workItem from="1587405959977" duration="13331000" />
+      <workItem from="1587618463541" duration="2254000" />
+      <workItem from="1587691098858" duration="1966000" />
+      <workItem from="1587919484981" duration="5017000" />
+      <workItem from="1588035599503" duration="3043000" />
+      <workItem from="1588122340430" duration="2031000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1587233914813</created>
@@ -91,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587273134105</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1587531819389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587531819389</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,21 +116,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="90" width="890" height="933" key="CommitChangelistDialog2" timestamp="1587273133051">
+    <state x="555" y="215" width="800" height="684" key="#New_File_Extensions" timestamp="1587618094077">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="510" y="90" width="890" height="933" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1587273133051" />
+    <state x="555" y="215" width="800" height="684" key="#New_File_Extensions/0.27.1920.1053@0.27.1920.1053" timestamp="1587618094077" />
+    <state x="510" y="90" width="946" height="933" key="CommitChangelistDialog2" timestamp="1587531819095">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="510" y="90" width="946" height="933" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1587531819095" />
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1587320377155">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1587320377155" />
-    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1587447214835">
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1587619404202">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1587447214835" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587273144855">
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1587619404202" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587531824916">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1587273144855" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1587531824916" />
   </component>
 </project>
