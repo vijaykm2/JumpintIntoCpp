@@ -13,7 +13,7 @@ void destroyTree(Node *p_tree);
 Node* remove(Node *p_tree, int key);
 
 Node* insert(Node *p_tree, int key){
-        if(p_tree == null){
+        if(p_tree == NULL){
             Node* node = new Node;
             node -> p_left = NULL;
             node -> p_right = NULL;
@@ -27,4 +27,62 @@ Node* insert(Node *p_tree, int key){
 
         }
         return p_tree;
+}
+
+Node* search(Node* p_tree, int key){
+    if(p_tree == NULL){
+        return NULL;
+    }
+    if(p_tree -> key_value == key){
+        return p_tree;
+    }
+    if(p_tree -> key_value > key){
+        return search(p_tree -> p_left, key);
+    } else {
+        return search( p_tree -> p_right, key);
+    }
+}
+void destroyTree(Node* p_tree){
+    if(p_tree != NULL){
+        destroyTree(p_tree -> p_left);
+        destroyTree(p_tree -> p_right);
+        delete p_tree;
+    }
+}
+
+Node* findMax(Node* p_tree){
+    if(p_tree == NULL) return NULL;
+    if(p_tree -> p_right == NULL) return p_tree;
+    return findMax(p_tree -> p_right);
+}
+Node* remove(Node* p_tree, int key){
+    if(p_tree == NULL){
+        return NULL;
+    }
+    if( p_tree -> key_value == key){
+        if(p_tree->p_right == NULL){
+            Node* p_left_sub = p_tree -> p_left;
+            delete p_tree;
+            return p_left_sub;
+        }
+        if(p_tree->p_left == NULL){
+            Node* p_right_sub = p_tree -> p_right;
+            delete p_tree;
+            return p_right_sub;
+        }
+        Node* p_max = findMax(p_tree -> p_left);
+        p_max -> p_left = p_tree -> p_left;
+        p_max -> p_right = p_tree -> p_right;
+        delete p_tree;
+        return p_max;
+
+    } else if(p_tree -> key_value > key){
+        return remove(p_tree ->p_left, key);
+    } else {
+        return remove(p_tree ->p_right, key);
+    }
+}
+
+int main(){
+
 }
