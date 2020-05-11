@@ -11,6 +11,7 @@ Node* insert(Node *p_tree, int key);
 Node* search(Node *p_tree, int key);
 void destroyTree(Node *p_tree);
 Node* remove(Node *p_tree, int key);
+Node* removeMaxNode(Node *p_tree, Node *p_max_node);
 
 Node* insert(Node *p_tree, int key){
         if(p_tree == NULL){
@@ -71,7 +72,7 @@ Node* remove(Node* p_tree, int key){
             return p_right_sub;
         }
         Node* p_max = findMax(p_tree -> p_left);
-        p_max -> p_left = p_tree -> p_left;
+        p_max -> p_left = removeMaxNode(p_tree -> p_left, p_max);
         p_max -> p_right = p_tree -> p_right;
         delete p_tree;
         return p_max;
@@ -81,6 +82,17 @@ Node* remove(Node* p_tree, int key){
     } else {
         return remove(p_tree ->p_right, key);
     }
+}
+
+Node* removeMaxNode (Node* p_tree, Node* p_max_node){
+    if(p_tree == NULL){
+        return NULL;
+    }
+    if(p_tree == p_max_node){
+        return p_max_node -> p_left;
+    }
+    p_tree -> p_right = removeMaxNode(p_tree -> p_left, p_max_node);
+    return p_tree;
 }
 
 int main(){
