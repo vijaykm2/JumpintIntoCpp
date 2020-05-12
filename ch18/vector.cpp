@@ -6,6 +6,7 @@
 #include<vector>
 #include<iostream>
 #include "map"
+#include "../ch19/getLine.h"
 
 using namespace std;
 
@@ -30,7 +31,13 @@ int main() {
     for (map<string, string>::iterator itr = name_email.begin(), end = name_email.end(); itr != end; ++itr) {
         cout << "key = " << itr->first << " , value = " << itr->second << endl;
     }
-
+    map<string, string>::iterator itr = name_email.find("asdf");
+    if(itr != name_email.end()){
+        cout<<"found";
+    } else {
+        cout << "\n not found";
+    }
+    getLine();
 
 }
 
