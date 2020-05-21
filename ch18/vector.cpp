@@ -7,6 +7,7 @@
 #include<iostream>
 #include "map"
 #include "../ch19/getLine.h"
+#include "../ch21/define.h"
 
 using namespace std;
 
@@ -38,6 +39,7 @@ int main() {
         cout << "\n not found";
     }
     getLine();
+    define();
 
 }
 
